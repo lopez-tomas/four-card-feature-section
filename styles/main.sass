@@ -1,10 +1,38 @@
 @use 'modules/_variables'
-
+// ################################## //
 * 
-  border-box: box-sizing
+  box-sizing: border-box
   margin: 0
   padding: 0
 
 html
   font-size: 62.5%
- 
+  font-family: variables.$font-family
+// ################################## //
+body
+  display: flex
+  flex-direction: column
+  align-items: center
+
+header 
+  display: flex
+  flex-direction: column
+  align-items: center
+  width: 80%
+  margin: 80px 0
+  color: variables.$very-dark-blue
+
+  h1
+    font-size: variables.$font-size + .6rem
+    font-weight: 200
+
+  h2
+    font-size: variables.$font-size + .6rem
+    font-weight: 600
+
+  p
+    margin-top: 15px
+    text-align: center
+    color: variables.$grayish-blue
+    font-size: variables.$font-size - .2rem 
+    font-weight: 400
