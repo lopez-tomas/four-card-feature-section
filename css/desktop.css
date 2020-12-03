@@ -1,19 +1,28 @@
 main {
   width: 100%;
 }
-main .card {
+main .cards {
   position: relative;
+  height: auto;
 }
-main .card__card {
+main .cards__card {
   position: absolute;
   max-height: 250px;
 }
-main .card__card p {
+main .cards__card p {
   width: 80%;
 }
-main .card__card--red {
-  background-color: red;
-  color: red;
+main .cards__card--blue, main .cards__card--cyan {
+  top: calc(0% + 125px);
+}
+main .cards__card--blue {
+  left: calc(50% + 200px);
+}
+main .cards__card--cyan {
+  left: calc(50% - 520px);
+}
+main .cards__card--orange {
+  top: calc(0% + 240px);
 }
 
 /*# sourceMappingURL=desktop.css.map */

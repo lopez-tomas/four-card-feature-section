@@ -1,8 +1,10 @@
 main
   width: 100%
-
-  .card
+  
+  .cards
     position: relative
+    height: auto
+
     &__card
       position: absolute
       max-height: 250px
@@ -10,6 +12,13 @@ main
       p
         width: 80%
 
-    &__card--red
-      background-color: red
-      color: red
+    &__card--blue, &__card--cyan
+      top: calc(0% + 125px)
+    &__card--blue
+      left: calc(50% + 200px)
+    &__card--cyan
+      left: calc(50% - 520px)
+    &__card--orange
+      top: calc(0% + 240px)
+
+
