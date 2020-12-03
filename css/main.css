@@ -35,6 +35,7 @@ header h2 {
   font-weight: 600;
 }
 header p {
+  max-width: 434px;
   margin-top: 15px;
   text-align: center;
   color: #a3a5ae;
