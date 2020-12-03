@@ -44,16 +44,36 @@ header p {
 
 main {
   align-self: center;
+  margin-bottom: 40px;
 }
 main .cards {
   width: 80%;
 }
 main .cards__card {
-  height: 250px;
+  height: 200px;
+  padding: 20px;
   margin-bottom: 30px;
   box-shadow: 0px 10px 25px rgba(89, 73, 30, 0.16);
   border-top: 3px solid;
   border-radius: 4px;
+}
+main .cards__card h3 {
+  text-align: left;
+  font-size: 2rem;
+  color: #4c4e61;
+}
+main .cards__card p {
+  margin-top: 5px;
+  font-size: 1.2rem;
+  color: #a3a5ae;
+}
+main .cards__card figure {
+  align-self: flex-end;
+  margin-top: 35px;
+}
+main .cards__card figure img {
+  height: 50px;
+  width: 50px;
 }
 main .cards__card--cyan {
   border-top-color: #45d3d3;
