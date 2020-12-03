@@ -9,16 +9,19 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
-body {
+.fl {
   display: flex;
+}
+
+.fl-dir {
   flex-direction: column;
+}
+
+.fl-ai {
   align-items: center;
 }
 
 header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 80%;
   margin: 80px 0;
   color: #4c4e61;
@@ -37,6 +40,32 @@ header p {
   color: #a3a5ae;
   font-size: 1.3rem;
   font-weight: 400;
+}
+
+main {
+  align-self: center;
+}
+main .cards {
+  width: 80%;
+}
+main .cards__card {
+  height: 250px;
+  margin-bottom: 30px;
+  box-shadow: 0px 10px 25px rgba(89, 73, 30, 0.16);
+  border-top: 3px solid;
+  border-radius: 4px;
+}
+main .cards__card--cyan {
+  border-top-color: #45d3d3;
+}
+main .cards__card--red {
+  border-top-color: #ea5353;
+}
+main .cards__card--orange {
+  border-top-color: #fcaf4a;
+}
+main .cards__card--blue {
+  border-top-color: #549ef2;
 }
 
 /*# sourceMappingURL=main.css.map */
