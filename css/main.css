@@ -91,4 +91,11 @@ main .cards__card--blue {
   border-top-color: #549ef2;
 }
 
+footer {
+  position: relative;
+  height: 5vh;
+  width: 100%;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=main.css.map */
