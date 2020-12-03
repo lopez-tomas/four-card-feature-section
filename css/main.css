@@ -1,17 +1,15 @@
-/* Error: Invalid Sass identifier ""
- *   ,
- * 1 | @use ''
- *   | ^^^^^^^
- *   '
- *   styles/main.sass 1:1  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Invalid Sass identifier \"\"\a   \2577 \a 1 \2502  @use ''\a   \2502  ^^^^^^^\a   \2575 \a   styles/main.sass 1:1  root stylesheet";
+* {
+  border-box: box-sizing;
+  margin: 0;
+  padding: 0;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: red;
+}
+
+/*# sourceMappingURL=main.css.map */
