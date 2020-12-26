@@ -21,6 +21,10 @@ html {
   align-items: center;
 }
 
+.fl-jc {
+  justify-content: center;
+}
+
 header {
   width: 80%;
   margin: 80px 0;
@@ -96,6 +100,11 @@ footer {
   height: 5vh;
   width: 100%;
   justify-content: center;
+  background-color: #4c4e61;
+  color: #fafafa;
+}
+footer a {
+  color: #45d3d3;
 }
 
 /*# sourceMappingURL=main.css.map */
